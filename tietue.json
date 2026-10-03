@@ -1,0 +1,58 @@
+{
+    "otsikko": "Hyvinvointia digitaalisesti",
+    "kuvaus": "Tällä sivulla kerrotaan Digitekniikat-toteutuksen tiedot, jossa rakennettiin Mari Siljamon hyvinvointisivusto.",
+    "kuva": "https://marisiljamo-cmyk.github.io/bootstrap-tehtava/images/yogaajat.jpg",
+    "toteutus": {
+        "nimi": "Digitekniikat",
+        "osallistujienMaara": 5,
+        "alkamispaiva": "13.1.2025",
+        "loppumispaiva": "14.3.2025",
+        "kestoViikkoina": 8
+    },
+    "osallistujat": [
+        "Mari Siljamo",
+        "Kim Aaltonen",
+        "Katri Ranta",
+        "Amanda Siljamo",
+        "Johanna Russo"
+    ],
+    "taulukko": [
+        "low-code",
+        "sisällönhallintajärjestelmät",
+        "responsiivinen käyttöliittymä ja komponentit",
+        "tiedon haku julkisista palveluista rest-rajapinnan yli"
+    ],
+    "sisakkainenTaulukko": [
+        [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    ],
+    "tekniikat": [
+        {
+            "aihe": "Ruudukko",
+            "linkki": "https://marisiljamo-cmyk.github.io/bootstrap-tehtava/#ruudukko"
+        },
+        {
+            "aihe": "Kortit",
+            "linkki": "https://marisiljamo-cmyk.github.io/bootstrap-tehtava/#kortit"
+        },
+        {
+            "aihe": "Haitari",
+            "linkki": "https://marisiljamo-cmyk.github.io/bootstrap-tehtava/#haitari"
+        },
+        {
+            "aihe": "Karuselli",
+            "linkki": "https://marisiljamo-cmyk.github.io/bootstrap-tehtava/#karuselli"
+        },
+        {
+            "aihe": "Etusivu",
+            "linkki": "https://marisiljamo-cmyk.github.io/bootstrap-tehtava/#etusivu"
+        },
+        {
+            "aihe": "Taulukko",
+            "linkki": "https://marisiljamo-cmyk.github.io/bootstrap-tehtava/#taulukko"
+        }
+    ]
+}
