@@ -53,7 +53,7 @@
         </div>
     </nav>
 
-    <main class="container py-5 text-center">
+    <main class="container py-5 ">
         <h1>JSON-datan käsittelyä</h1>
         <p class="lead">Harjoitellaan JSON-tiedoston hakemista Fetch API:lla.</p>
         <div id="vastaus"></div>
@@ -76,13 +76,13 @@
             html += "<h2>" + data.otsikko + "</h2>";
             html += '<img src="' + data.kuva + '" alt="Kuva" class="img-fluid mb-3 d-block mx-auto" style="max-height: 300px; object-fit: cover;">';
 
-            html += "<h3>Taulukon sisältö</h3><ul class='text-start'>";
+            html += "<h3>Taulukon sisältö</h3><ul >";
             for (let i = 0; i < data.taulukko.length; i++) {
                 html += "<li>" + i + ": " + data.taulukko[i] + "</li>";
             }
             html += "</ul>";
 
-            html += "<h3>Sisäkkäinen taulukko</h3><ul class='text-start'>";
+            html += "<h3>Sisäkkäinen taulukko</h3><ul >";
             for (let i = 0; i < data.sisakkainenTaulukko.length; i++) {
                 html += "<li>" + data.sisakkainenTaulukko[i].join(", ") + "</li>";
             }
